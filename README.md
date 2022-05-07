@@ -1,2 +1,2 @@
 # adopt-a-squirrel
-a site to help with the funding and care for nature arborists
+The place to help natures arborists and those who help rehab them.
