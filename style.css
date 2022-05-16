@@ -35,12 +35,27 @@ p{
     text-align: center;   
 }
 img{
-border: #26402489;
-display: block;
-margin-right: auto;
-margin-left: auto;
+    border: #26402489;
+        display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+h3{
+    color: #b2522c;
+    background-color: rgba(3, 100, 3, 0.194);
+    text-align: center;
+    font: 1em fantasy;
+   font-size: 40px;
+   font-weight: 1000;
+
 }
 footer{
-background-color: 0 0% 0;
-color: rgb(238, 251, 249);
+    background-color: 0 0% 0;
+    color: rgb(238, 251, 249);
+}
+#fatty{
+    border: #26402489;
+        display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
