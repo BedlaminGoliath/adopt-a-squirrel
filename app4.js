@@ -1,10 +1,13 @@
-let result = confirm('Do you want to see some adorable squirrels?');
+function seeSquirrels(){
+    let result = confirm('Do you want to see some adorable squirrels?');
 
-if (result == true){
-    alert("You chose correct!")
-}
-else {
-    alert("You chose wrong!")
-}
+    if (result == true){
+        alert("You chose correct!")
+    }
+    else {
+        alert("You chose wrong!")
+    }
+    
+    console.log(result);
 
-console.log(result);
+}
