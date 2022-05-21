@@ -1,12 +1,52 @@
-function feedDoug(){
+// function guessingGame(){
+//     let userquestion ="how many squirrels have you fed today? 1-5"
+//     let userAnswer = prompt(userquestion);
+//     let correctAnswer = 5;
+//     let attempts = 3;
 
-    let userAnswer = prompt ('Do you want to pet Dougie? (yes or no) See how he feels about this');
+//     while (userAnswer < 1 || userAnswer > 5){
+//         userAnswer = prompt('WRONG! they are plotting your demise try between 1-5');
+//         console.log(userAnswer);
+//     }
 
-        if (userAnswer.toLowerCase() == "yes"){
-            document.write("Dougie does not like to be pet and said 'squeak!'");
-        }
-        else{
-            document.write("Doug is not happy either way");
-            //console.log(userAnswer)
-        }
-}
+//     for(let i = 1; i < attempts; i++){
+
+//         if (userAnswer == correctAnswer){
+//             alert("Correct answer! " + correctAnswer);
+//             document.write("Get out of here! go feed the chipmunks!");  
+//             break; 
+//         }else if (userAnswer > correctAnswer){
+//             userAnswer = prompt('Sorry to high.. you started a squirrel riot');  
+//         }else {
+//             userAnswer = prompt('Sorry. Not enough... ATTACK!');
+//         }
+//     }
+//     alert("The squirrels stole your children");
+// }
+
+
+
+// for(let i = 1; i < attempts; i++){
+
+//     while(userAnswer < 1 || userAnswer > 5){
+//         userAnswer = prompt('WRONG! they are plotting your demise try between 1-5');
+//         console.log(userAnswer);
+//     }
+//     if(i == correctAnswer) {
+//         prompt("the acceptable answer is" + correctAnswer);
+//         document.write("Get out of here! go feed the chipmunks!");
+//         break;
+//         }
+//     if(userAnswer == correctAnswer){
+//         alert('You did it! they will let you live another day!');
+//         document.write("They Are Pleased,for now... but watch your back");
+//         break;
+//     } else if (userAnswer > correctAnswer){
+//         userAnswer = prompt('Sorry to high.. you started a squirrel riot');
+
+//     } else if (userAnswer < correctAnswer){
+//         userAnswer = prompt('sorry. Not enough ATTACK!');
+//     }
+
+
+// } 

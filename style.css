@@ -25,7 +25,7 @@ section{
 }
 li 
 {
-    display: inline;
+    display: inline-block;
     color: rgb(124, 63, 22);
     border: groove rgb(168, 100, 168)  1px;
     padding: 0px 16px
@@ -66,4 +66,4 @@ script{
     font: 1em fantasy;
    font-size: 40px;
    font-weight: 1000;
-}
+}   
