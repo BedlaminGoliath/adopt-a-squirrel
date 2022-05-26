@@ -10,17 +10,19 @@ function welcomeHomePage(){
 
 }
 function feedDoug(){
+console.log('test');
+    let question ="Do you want to pet Dougie? (yes or no) See how he feels about this";
+    let answer2question = prompt(question);
+    let rightAnswer = 'yes';
 
-    let userAnswer = prompt ('Do you want to pet Dougie? (yes or no) See how he feels about this');
+    while (answer2question !== rightAnswer){
+        answer2question = prompt('Think again hotshot');
+    }
+    alert("correct answer");
 
-        if (userAnswer.toLowerCase == 'Yes'){
-            document.write("Dougie does not like to be pet and said 'squeak!'");
-        }
-        else{
-            document.write("Doug is not happy either way");
-            console.log(userAnswer)
-        }
+    return 
 }
+
 function fatSquirrel(){
 
     let happySquirrel = prompt('Do you like to feed squirrels? (yes or no) ');
@@ -33,7 +35,9 @@ function fatSquirrel(){
         document.write('<img src ="' + picUrl + '">')
         console.log(happySquirrel)
     }
-
+    else{
+        alert('youre dumb, you must feed ther squirrels!')
+    }
 }
 function seeSquirrels(){
     let result = confirm('Do you want to see some adorable squirrels?');
@@ -59,7 +63,7 @@ function guessingGame(){
         console.log(userAnswer);
     }
 
-    for(let i = 1; i < attempts; i++){
+    for(let i = 0; i < attempts; i++){
 
         if (userAnswer == correctAnswer){
             alert("Correct answer! " + correctAnswer);
@@ -72,7 +76,7 @@ function guessingGame(){
         }
         
     }
-         alert("The squirrels stole your children");
+    // alert("The squirrels stole your children");
 }
 function acornRating(){
     let acorn = "https://i.pinimg.com/originals/c2/0a/eb/c20aeb70fb75e4433f04e383a1bd8c00.png";
@@ -82,3 +86,29 @@ function acornRating(){
         document.write(`<li><img src=${acorn} width="50" height="50"></li>`)
     }
 }
+function whoIsTheQueen(){
+    let question = "Who is the queen baby? hint: its a squirrel";
+    let answerToQuestion = prompt(question);
+    let onlyAnswer = 'momma squirrel';
+    while (answerToQuestion !== onlyAnswer){
+        answerToQuestion = prompt('You fool! There can only be one!')
+    }
+    alert("Youre Damn Right!")
+}
+function whosBirthday(){
+    let question = "whos Birthday is it tomorrow?";
+    let bDayQuestion = prompt(question); 
+    let bDayRightAnswer = "erin";
+
+    while (bDayQuestion !== bDayRightAnswer){
+        bDayQuestion = prompt("You have got to be kidding me")       
+        }
+        alert ("You bet your bippy its the babys Bday!")
+}
+function forLoops(){
+for(let cds = 0; cds< 12; cds ++){
+    console.log('this is how many cds i have');
+}
+
+}
+
